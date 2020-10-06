@@ -1,0 +1,10 @@
+.carousel-area .carousel-item {
+  background: black !important;
+}
+.card-body{
+  display: none;
+}
+.card{
+  border: none;
+  justify-content: center;
+}
