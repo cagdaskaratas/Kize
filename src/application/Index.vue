@@ -37,16 +37,16 @@
             <p>YAKLAŞIK 15 YILLIK TECRÜBEMİZİ YENİ KURDUĞUMUZ <span style="color: #f5de00">KİZE REKLAM</span> FİRMAMIZ İLE SİZ REKLAM VERENLERİN HİZMETİNE SUNUYORUZ.</p>
           </div>
           <div class="description">
-            <p>Sektörün artı ve EKSİ YÖNLERİNİ BİLEN, MÜŞTERİNİN DEĞİŞEN ve GELİŞEN TALEPLERİNİ YERİNE GETİREN, GELİŞMİŞ TEKNOLOJİK alt yapıya SAHİP DENEYİMLİ EKİBİMİZ İLE sektöre YENİLİKLER GETİRMEK İÇİN yola çıktık.</p>
-            <p>NİTELİKLİ HİZMET İÇİN TEKNOLOJİYİ ÖNEMSİYOR ve EKİBİMİZLE beraber TEKNOLOJİK yatırımlarımıza son hızla devam ediyoruz.</p>
+            <p>Sektörün artı ve eksi yönlerini bilen, müşterinin değişen ve gelişen taleplerini yerine getiren, gelişmiş teknolojik alt yapıya sahip deneyimli ekibimiz ile sektöre yenilikler getirmek için yola çıktık.</p>
+            <p>Nitelikli hizmet için teknolojiyi önemsiyor ve ekibimizle beraber teknolojik yatırımlarımıza son hızla devam ediyoruz.</p>
           </div>
         </b-col>
       </b-row>
     </b-col>
     <b-col cols="12" class="services-bgc">
       <h2 class="pt-5" style="color:#f5de00; text-align: center">HİZMETLERİMİZ</h2>
-      <p style="text-align: center; font-size: 18px;margin-bottom: 0">Kurumsal KİMLİK uygulamalarınızın her noktasında MOBİLYA DAHİL çözüm ÜRETİR.</p>
-      <p style="text-align: center;font-size: 18px">ÜRETİMDEN montaja tüm aşamalarında yer alır.</p>
+      <p style="text-align: center; font-size: 18px;margin-bottom: 0">Kurumsal kimlik uygulamalarınızın her noktasında mobilya dahil çözüm üretir.</p>
+      <p style="text-align: center;font-size: 18px">Üretimden montaja tüm aşamalarında yer alır.</p>
       <b-col cols="12" class="brand-table">
           <b-img src="https://res.cloudinary.com/dc96hlyst/image/upload/v1600268225/I%CC%87nfografik_eak1m0.png" fluid alt="Responsive image"></b-img>
       </b-col>
@@ -54,14 +54,14 @@
     <b-col cols="12">
       <b-row>
         <b-col md="6" sm="12" class="footer-text-area">
-          <h2>YENİ NESİL REKLAMCILIK DENEYİMİNİ YAŞAYIN</h2>
-          <p>GİRİŞİMCİYİZ, TECRÜBELİYİZ</p>
-          <p>YENİLİKÇİYİZ, Yaratıcıyız</p>
-          <p>Dürüstüz, GÜVENİLİRİZ</p>
-          <p>İŞ TAKİBİNİ İYİ yapan</p>
-          <p>Andında GERİ BİLDİRİM veren</p>
-          <p>Sağlam EKİP İLE sağlam İŞ planına SAHİP olan KİZE REKLAM İLE</p>
-          <p>SİZDE YENİ BİR DENEYİM yaşayın</p>
+          <h3>YENİ NESİL REKLAMCILIK DENEYİMİNİ YAŞAYIN</h3>
+          <p>Girişimciyiz, Tecrübeliyiz</p>
+          <p>Yenilikçiyiz, Yaratıcıyız</p>
+          <p>Dürüstüz, Güveniliriz</p>
+          <p>İş takibini iyi yapan</p>
+          <p>Anında geri bildirim veren</p>
+          <p>Sağlam ekip ile sağlam iş planına sahip olan KİZE REKLAM ile</p>
+          <p>Sizde yeni bir deneyim yaşayın</p>
           <b-button pill size="sm" href="/portfolio">PORTFOLYO</b-button>
         </b-col>
         <b-col md="6" sm="12" class="p-0">

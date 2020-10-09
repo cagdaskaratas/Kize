@@ -9,40 +9,40 @@
             <p style="font-size: 12px">Sektörün artı ve eksi yönlerini bilen, müşterinin değişen ve gelişen taleplerini yerine getiren, gelişmiş teknolojik alt yapıya sahip deneyimli ekibimiz ile sektöre yenilikler getirmek için yola çıktık.</p>
             <img style="width: 200px;height: 80px" src="../img/kize-logo.png">
           </b-col>
-          <b-col md="6" sm="12" class="footer-menu">
+          <b-col md="6" sm="12" class="footer-menu text-left">
             <router-link
               to="/"
             >
-              <a>ANASAYFA</a>
+              <a>Ana Sayfa</a>
             </router-link>
             <router-link
               to="/about"
             >
-              <a>HAKKIMIZDA</a>
+              <a>Hakkımızda</a>
             </router-link>
             <router-link
               to="/services"
             >
-              <a>HİZMETLERİMİZ</a>
+              <a>Hizmetlerimiz</a>
             </router-link>
             <router-link
               to="/portfolio"
             >
-              <a>PORTFOLYO</a>
+              <a>Portfolyo</a>
             </router-link>
             <router-link
               to="/contact"
             >
-              <a>İLETİŞİM</a>
+              <a>İletişim</a>
             </router-link>
           </b-col>
         </b-row>
       </b-col>
       <b-col md="6" sm="12">
         <b-row>
-          <b-col md="6" sm="12" class="footer-news">
-            <p class="news-title">EMAİL BÜLTENİ</p>
-            <p class="news-desc">En yeni ürünlerimiz ve tüm gelişmelerden Haberdan olmak için mail listemize kayıt olun.</p>
+          <b-col md="8" sm="12" class="footer-news" style="padding: 0 0 0 10rem">
+            <p class="news-title text-left">EMAİL BÜLTENİ</p>
+            <p class="news-desc text-left">En yeni ürünlerimiz ve tüm gelişmelerden haberdar olmak için mail listemize kayıt olun.</p>
             <b-form @submit="onSubmit" @reset="onReset" v-if="show">
               <b-form-group
                 id="input-group-1"
@@ -58,11 +58,11 @@
                 ></b-form-input>
               </b-form-group>
             </b-form>
-            <div style="text-align: center">
-              <b-button href="/contact" type="submit" size="md" pill>Kayıt Ol</b-button>
+            <div style="text-align: left">
+              <b-button href="/contact" class="footer-button" type="submit" size="md" pill>Kayıt Ol</b-button>
             </div>
           </b-col>
-          <b-col md="6" sm="12">
+          <b-col md="4" sm="12">
             <b-row class="social-group">
               <a class="nav-link nav-link-icon" href="https://www.google.com" target="_blank">
                 <img src="../img/facebook.svg" style="width: 25px;height:30px" alt="">
