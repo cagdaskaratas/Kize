@@ -21,7 +21,7 @@
               baskılar, cutout’lar…</li>
             <li>Folyo harf kesim ve sticker’lar; ofis içi folyo uygulamaları</li>
             <li>Araç giydirme</li>
-            <li>Tüm display ürünler ()</li>
+            <li>Tüm display ürünler</li>
             <li>Tasarım danışmanlığı, kreatif çözümler</li>
           </ul>
         </div>

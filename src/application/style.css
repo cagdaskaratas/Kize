@@ -1,6 +1,5 @@
 html body{
-  font-family: 'Bebas Neue', cursive;
-  letter-spacing: 1.2px;
+  font-family: 'Open Sans', sans-serif;
 }
 .bg-dark {
   background-color: #000 !important;
@@ -44,7 +43,7 @@ html body{
 }
 .footer-text-area{
   color: #939291;
-  padding: 15px;
+  padding: 3rem;
 }
 @media screen and (max-width: 992px) {
   .footer-text-area {
@@ -144,6 +143,16 @@ g {
   }
 }
 @media screen and (max-width: 992px) {
+  .footer-news {
+    padding-left: 1rem !important;
+  }
+}
+@media screen and (max-width: 992px) {
+  .footer-button {
+    display: grid;
+  }
+}
+@media screen and (max-width: 992px) {
   .footer-news .news-title {
     margin-bottom: 5px;
     padding-top: 1em;
@@ -201,5 +210,15 @@ g {
 @media screen and (max-width: 992px) {
   .navbar-border-left{
     display: none;
+  }
+}
+@media screen and (max-width: 1920px) {
+  .text-area{
+    padding: 5rem;
+  }
+}
+@media screen and (max-width: 450px) {
+  .text-area{
+    padding: 1rem;
   }
 }
