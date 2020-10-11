@@ -53,7 +53,7 @@
                 ></b-form-textarea>
               </div>
               <div>
-                <vue-recaptcha sitekey="6LexFdYZAAAAAE9NYklt9W1ps8jsiQheENIGlxCH"></vue-recaptcha>
+                <vue-recaptcha sitekey="6Lc6FdYZAAAAAAguJfm88TrHxaJq9dDtJb2Xgv6s"></vue-recaptcha>
               </div>
             <b-button class="mt-3" type="submit" variant="primary">GÖNDER</b-button>
             <b-col cols="12" class="pt-4">
@@ -92,6 +92,7 @@ import { Auth } from '../firebase/auth.js'
 import VueRecaptcha from 'vue-recaptcha';
 
 export default {
+  components: { VueRecaptcha },
   data() {
     return {
         name: '',
@@ -104,7 +105,6 @@ export default {
         contact_name: '',
         contact_number: '',
         recaptcha: null,
-        components: { VueRecaptcha },
     }
   },
   methods: {
