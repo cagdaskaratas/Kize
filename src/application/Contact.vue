@@ -61,6 +61,10 @@
                 <b-button class="mt-3" type="submit" variant="primary">GÖNDER</b-button>
               </form>
             </div>
+              <div>
+                <vue-recaptcha sitekey="6Lc6FdYZAAAAAAguJfm88TrHxaJq9dDtJb2Xgv6s"></vue-recaptcha>
+              </div>
+            <b-button class="mt-3" type="submit" variant="primary">GÖNDER</b-button>
             <b-col cols="12" class="pt-4">
               <b-row>
                 <b-col md="4" sm="12">
