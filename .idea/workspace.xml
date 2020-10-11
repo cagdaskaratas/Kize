@@ -1,22 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="80108c5d-4c93-4b61-8354-2dbf5818c903" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/bd5890f8939cdf52817e52c60456ed9d.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/bd5890f8939cdf52817e52c60456ed9d.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/bf0e7b6be4bbfdf52d3e6106bfed7a44.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/bf0e7b6be4bbfdf52d3e6106bfed7a44.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/02a38bfaa67979f312848d44a58717a3.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/02a38bfaa67979f312848d44a58717a3.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/0561d8a7cc65729e5d810c7ab5935818.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/0561d8a7cc65729e5d810c7ab5935818.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/40709a23468742f98ea5d2e85d6f2610.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/40709a23468742f98ea5d2e85d6f2610.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/53ae1a905e06ff330201ed7ea9983393.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/53ae1a905e06ff330201ed7ea9983393.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/77bd78704cd86868efa40045393ce2c8.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/77bd78704cd86868efa40045393ce2c8.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/8335b6ddf3a7f3e0a50fcef11fbff3c6.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/8335b6ddf3a7f3e0a50fcef11fbff3c6.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/cb54061c30cee267ae27b7732acff302.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/cb54061c30cee267ae27b7732acff302.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/d33d65dd7641eb96bdfba32693f78cb5.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/d33d65dd7641eb96bdfba32693f78cb5.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/application/Contact.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/Contact.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/application/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
-    </list>
+    <list default="true" id="80108c5d-4c93-4b61-8354-2dbf5818c903" name="Default Changelist" comment="recaptcha" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,7 +41,7 @@
       <updated>1602062527058</updated>
       <workItem from="1602062528227" duration="64000" />
       <workItem from="1602178143602" duration="4351000" />
-      <workItem from="1602412064427" duration="6840000" />
+      <workItem from="1602412064427" duration="7062000" />
     </task>
     <task id="LOCAL-00001" summary="font and improvement">
       <created>1602228078733</created>
@@ -79,7 +64,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602427174810</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="recaptcha">
+      <created>1602431728105</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1602431728105</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -91,14 +83,14 @@
     <option name="LAST_COMMIT_MESSAGE" value="recaptcha" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="0" y="0" width="846" height="900" key="CommitChangelistDialog2" timestamp="1602427173604">
+    <state x="0" y="0" width="846" height="900" key="CommitChangelistDialog2" timestamp="1602431923767">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="0" y="0" width="846" height="900" key="CommitChangelistDialog2/0.0.1440.900/-241.-1080.1920.1080@0.0.1440.900" timestamp="1602427173604" />
-    <state x="320" y="186" key="Vcs.Push.Dialog.v2" timestamp="1602427178535">
+    <state x="0" y="0" width="846" height="900" key="CommitChangelistDialog2/0.0.1440.900/-241.-1080.1920.1080@0.0.1440.900" timestamp="1602431923767" />
+    <state x="320" y="186" key="Vcs.Push.Dialog.v2" timestamp="1602431730740">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="186" key="Vcs.Push.Dialog.v2/0.0.1440.900/-241.-1080.1920.1080@0.0.1440.900" timestamp="1602427178535" />
+    <state x="320" y="186" key="Vcs.Push.Dialog.v2/0.0.1440.900/-241.-1080.1920.1080@0.0.1440.900" timestamp="1602431730740" />
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1602414617772">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
