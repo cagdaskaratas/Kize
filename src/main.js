@@ -15,8 +15,8 @@ Vue.use(IconsPlugin)
 
 Vue.use(VueRouter);
 
-Vue.use(firestorePlugin);
 
+Vue.use(firestorePlugin);
 const router = new VueRouter({
   routes,
   mode : 'history'
