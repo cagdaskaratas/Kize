@@ -52,7 +52,9 @@
                   max-rows="6"
                 ></b-form-textarea>
               </div>
-
+              <div>
+                <vue-recaptcha sitekey="6LexFdYZAAAAAE9NYklt9W1ps8jsiQheENIGlxCH"></vue-recaptcha>
+              </div>
             <b-button class="mt-3" type="submit" variant="primary">GÖNDER</b-button>
             <b-col cols="12" class="pt-4">
               <b-row>
@@ -87,6 +89,7 @@
 
 <script>
 import { Auth } from '../firebase/auth.js'
+import VueRecaptcha from 'vue-recaptcha';
 
 export default {
   data() {
@@ -100,6 +103,8 @@ export default {
         contact_notice: '',
         contact_name: '',
         contact_number: '',
+        recaptcha: null,
+        components: { VueRecaptcha },
     }
   },
   methods: {
@@ -131,6 +136,25 @@ export default {
         this.show_contact = false;
       }
     },
+    mxVerify( response ) {
+
+      this.recaptcha = response
+
+    },
+    mxSubmit() {
+
+      if( this.subject && this.message && this.recaptcha ) {
+
+        console.log( 'Submit' )
+
+
+      } else {
+
+        this.formInv = true
+
+      }
+
+    }
   },
 }
 </script>
