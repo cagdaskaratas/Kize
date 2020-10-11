@@ -10,7 +10,7 @@
             There was a problem submitting your message {{contact_notice}}
           </div>
 
-          <b-form @submit.prevent="sendContactMessage()">
+          <b-form>
             <label style="float: left">AD SOYAD</label>
             <b-form-input
               id="name"
@@ -52,10 +52,15 @@
                   max-rows="6"
                 ></b-form-textarea>
               </div>
-              <div>
-                <vue-recaptcha sitekey="6LexFdYZAAAAAE9NYklt9W1ps8jsiQheENIGlxCH"></vue-recaptcha>
-              </div>
-            <b-button class="mt-3" type="submit" variant="primary">GÖNDER</b-button>
+            <div class="verification-area">
+              <form @submit.prevent="sendContactMessage()">
+                  <vue-recaptcha @verify="markRecaptchaAsVerified"
+                                 sitekey="6LexFdYZAAAAAE9NYklt9W1ps8jsiQheENIGlxCH">
+                  </vue-recaptcha>
+                <div><strong>{{ loginForm.pleaseTickRecaptchaMessage }}</strong></div>
+                <b-button class="mt-3" type="submit" variant="primary">GÖNDER</b-button>
+              </form>
+            </div>
             <b-col cols="12" class="pt-4">
               <b-row>
                 <b-col md="4" sm="12">
@@ -92,6 +97,7 @@ import { Auth } from '../firebase/auth.js'
 import VueRecaptcha from 'vue-recaptcha';
 
 export default {
+  components: { VueRecaptcha },
   data() {
     return {
         name: '',
@@ -104,7 +110,10 @@ export default {
         contact_name: '',
         contact_number: '',
         recaptcha: null,
-        components: { VueRecaptcha },
+      loginForm: {
+        recaptchaVerified: false,
+        pleaseTickRecaptchaMessage: ''
+      }
     }
   },
   methods: {
@@ -122,6 +131,10 @@ export default {
     },
     sendContactMessage() {
        console.log(this.contact_name)
+      if (!this.loginForm.recaptchaVerified) {
+        this.loginForm.pleaseTickRecaptchaMessage = 'Lütfen robot olmadığınızı doğrulayın.';
+        return true; // prevent form from submitting
+      }
       if (!(this.contact_email)){
         this.contact_notice = "The email adress is badly formatted.";
       } else if (this.contact_message.length < 10) {
@@ -136,25 +149,10 @@ export default {
         this.show_contact = false;
       }
     },
-    mxVerify( response ) {
-
-      this.recaptcha = response
-
+    markRecaptchaAsVerified() {
+      this.loginForm.pleaseTickRecaptchaMessage = '';
+      this.loginForm.recaptchaVerified = true;
     },
-    mxSubmit() {
-
-      if( this.subject && this.message && this.recaptcha ) {
-
-        console.log( 'Submit' )
-
-
-      } else {
-
-        this.formInv = true
-
-      }
-
-    }
   },
 }
 </script>

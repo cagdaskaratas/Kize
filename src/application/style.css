@@ -222,3 +222,8 @@ g {
     padding: 1rem;
   }
 }
+.verification-area{
+  padding-top: 2rem;
+  justify-content: center;
+  display: grid;
+}
