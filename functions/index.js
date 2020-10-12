@@ -20,8 +20,8 @@ exports.sendEmail = functions.https.onRequest((request, response) => {
   const number = request.query.number
 
   const mailOptions = {
-    from: 'Kize Reklam <cagdas.karatas0@gmail.com>',
-    to: 'cagdas.karatas0@gmail.com',
+    from: 'Kize Reklam <burak@kizereklam.com>',
+    to: 'burak@kizereklam.com',
     subject: 'Kizereklam contact form submission',
     html: `${name} <br><br> ${message} <br><br> ${number} <br><br> From ${email_from}`
   }
