@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="80108c5d-4c93-4b61-8354-2dbf5818c903" name="Default Changelist" comment="recaptcha">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/functions/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/functions/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/Portfolio.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/Portfolio.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +46,7 @@
       <workItem from="1602062528227" duration="64000" />
       <workItem from="1602178143602" duration="4351000" />
       <workItem from="1602412064427" duration="7062000" />
+      <workItem from="1609943659138" duration="291000" />
     </task>
     <task id="LOCAL-00001" summary="font and improvement">
       <created>1602228078733</created>
@@ -85,10 +88,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="recaptcha" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="0" y="0" width="846" height="900" key="CommitChangelistDialog2" timestamp="1602431923767">
+    <state x="0" y="0" width="846" height="900" key="CommitChangelistDialog2" timestamp="1602491956061">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="0" y="0" width="846" height="900" key="CommitChangelistDialog2/0.0.1440.900/-241.-1080.1920.1080@0.0.1440.900" timestamp="1602431923767" />
+    <state x="0" y="0" width="846" height="900" key="CommitChangelistDialog2/0.0.1440.900/-241.-1080.1920.1080@0.0.1440.900" timestamp="1602491956061" />
     <state x="320" y="186" key="Vcs.Push.Dialog.v2" timestamp="1602431730740">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
