@@ -55,6 +55,35 @@
               <div>
                 <div>
                   <b-card-group deck>
+                    <b-card img-src="https://res.cloudinary.com/dc96hlyst/image/upload/v1609944134/memorial_logo_smugcj.jpg" img-alt="Image" img-top></b-card>
+                    <b-card title="Title" img-src="https://res.cloudinary.com/dc96hlyst/image/upload/v1609944134/carrefour_logo_p2wupd.jpg" img-alt="Image" img-top></b-card>
+                    <b-card title="Title" img-src="https://res.cloudinary.com/dc96hlyst/image/upload/v1609944134/hizmet_hastanesi_t7p86i.jpg" img-alt="Image" img-top></b-card>
+                  </b-card-group>
+                </div>
+              </div>
+            </template>
+          </b-carousel-slide>
+        </b-carousel>
+      </b-col>
+      <b-col md="12" sm="6">
+        <b-carousel
+            class="carousel-area"
+            id="carousel-1"
+            v-model="slide2"
+            :interval="3000"
+            fade
+            background="#ababab"
+            img-width="1024"
+            img-height="480"
+            style="text-shadow: 1px 1px 2px #333; margin-top: 20px"
+            @sliding-start="onSlideStart2"
+            @sliding-end="onSlideEnd2"
+        >
+          <b-carousel-slide>
+            <template v-slot:img>
+              <div>
+                <div>
+                  <b-card-group deck>
                     <b-card img-src="https://res.cloudinary.com/dc96hlyst/image/upload/v1601058196/download_xtyqyy.jpg" img-alt="Image" img-top></b-card>
                     <b-card title="Title" img-src="https://res.cloudinary.com/dc96hlyst/image/upload/v1601992646/kizeLogo_400x400_iaj7vx.png" img-alt="Image" img-top></b-card>
                     <b-card title="Title" img-src="https://res.cloudinary.com/dc96hlyst/image/upload/v1601058279/5afd2559ef87217052018094649_eijilo.jpg" img-alt="Image" img-top></b-card>

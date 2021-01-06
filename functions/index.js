@@ -9,7 +9,7 @@ let transporter = nodemailer.createTransport({
   secure: false, // upgrade later with STARTTLS
   auth: {
     user: "apikey",
-    pass: "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"
+    pass: "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"
   }
 });
 
@@ -20,8 +20,8 @@ exports.sendEmail = functions.https.onRequest((request, response) => {
   const number = request.query.number
 
   const mailOptions = {
-    from: 'Kize Reklam <burak@kizereklam.com>',
-    to: 'burak@kizereklam.com',
+    from: 'Kize Reklam <contactkizereklam@gmail.com>',
+    to: 'contactkizereklam@gmail.com',
     subject: 'Kizereklam contact form submission',
     html: `${name} <br><br> ${message} <br><br> ${number} <br><br> From ${email_from}`
   }
